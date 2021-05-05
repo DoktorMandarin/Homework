@@ -10,16 +10,16 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int WaitingTime = 10;
-            int OldLady;
-            int hours;
-            int minutes;
+            int waitingTime = 10;
+            int oldLady;
+            int waitingHours;
+            int waitingMinutes;
 
             Console.Write("Сколько в очереди старушек?:");
-            OldLady = Convert.ToInt32(Console.ReadLine());
-            hours = (OldLady * WaitingTime) / 60;
-            minutes = (OldLady * WaitingTime) % 60;
-            Console.Write("Вам стоять в очереди " + (hours) + " часов и " + (minutes) + " минут");
+            oldLady = Convert.ToInt32(Console.ReadLine());
+            waitingHours = (oldLady * waitingTime) / 60;
+            waitingMinutes = (oldLady * waitingTime) % 60;
+            Console.Write("Вам стоять в очереди " + (waitingHours) + " часов и " + (waitingMinutes) + " минут");
             Console.ReadLine();
         }
     }
