@@ -10,20 +10,20 @@ namespace CW
     {
         static void Main(string[] args)
         {
-            string youName;
-            string youLiveSity;
-            int youschool;
-            int youAge;
+            string name;
+            string yourLiveSity;
+            int yourSchool;
+            int yourAge;
 
             Console.Write("Как вас зовут?");
-            youName = Console.ReadLine();
+            name = Console.ReadLine();
             Console.Write("Сколько вам лет?");
-            youAge = Convert.ToInt32(Console.ReadLine());
+            yourAge = Convert.ToInt32(Console.ReadLine());
             Console.Write("В каком городе вы живете?");
-            youLiveSity = Console.ReadLine();
+            yourLiveSity = Console.ReadLine();
             Console.Write("Какую школу вы закончили?");
-            youschool = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Вас зовут " + (youName) + ". Вам "  + (youAge) + " лет. Вы живете в " + (youLiveSity) + ". Вы закончили школу №" + (youschool) + "." );
+            yourSchool = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Вас зовут " + (name) + ". Вам " + (yourAge) + " лет. Вы живете в " + (yourLiveSity) + ". Вы закончили школу №" + (yourSchool) + ".");
             
 
         }
