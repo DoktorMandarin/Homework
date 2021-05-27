@@ -10,15 +10,12 @@ namespace _2._2
     {
         static void Main(string[] args)
         {
-            string exitWrod = "";
+            string exitWord = " exit ";
 
-            while (exitWrod.ToLower() != "exit")
-           
+            while (exitWord != "exit")     
             {
-
                 Console.WriteLine("Введите пароль для выхода:");
-                exitWrod = Console.ReadLine();
-           
+                exitWord = Console.ReadLine();           
             }
         }
     }
