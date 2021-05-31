@@ -10,13 +10,13 @@ namespace _2._2
     {
         static void Main(string[] args)
         {
-            string exitWord = " exit ";
-
-            while (exitWord != "exit")     
+            string exitWord = "exit";
+            do
             {
                 Console.WriteLine("Введите пароль для выхода:");
-                exitWord = Console.ReadLine();           
+                exitWord = Console.ReadLine();
             }
+            while (exitWord != "exit");   
         }
     }
 }
