@@ -10,8 +10,8 @@ namespace _2._7
     {
         static void Main(string[] args)
         {
-            int tryCount = 10;
-            string password = "Кукушка";
+            int tryCount = 3;
+            string password = "Fatabick";
             string userInput;
 
             for (int i = 0; i < tryCount; i++) 
